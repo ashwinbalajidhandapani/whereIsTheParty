@@ -1,0 +1,165 @@
+// @import "webapp/src/App.scss";
+@import "../../App.scss";
+
+
+.mainpage-container {
+    margin: 5rem 0rem;
+
+    .header-container {
+        height: 25rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .info-container {
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+
+            .header-title {
+                font-weight: bold;
+                font-size: 3rem;
+            }
+
+            .header-desc {
+                text-align: left;
+            }
+        }
+
+        .image-container {
+            margin-left: 4rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            img {
+                width: 30rem;
+                height: auto;
+            }
+        }
+    }
+
+    .how-it-works {
+        padding: 2rem 15rem;
+        margin-top: 3rem;
+        background-color: $light-grey;
+
+        .title-container {
+            text-align: center;
+
+            .title-text {
+                font-weight: bold;
+                font-size: 2rem;
+            }
+        }
+
+        .items-container {
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .item {
+                display: flex;
+                flex-direction: column;
+                margin: 0rem 1rem;
+                align-items: center;
+                text-align: center;
+                width: 20rem;
+
+                .item-title {
+                    font-weight: bold;
+                    color: $dark;
+                    font-size: 1.2rem;
+                }
+
+                .item-desc {
+                    padding-top: 1rem;
+                    font-size: 0.9rem;
+                }
+
+                img {
+                    height: 10rem;
+                }
+            }
+
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 2rem;
+
+            .button {
+                border: .15rem solid $white;
+                border-radius: .5rem;
+                background-color: $dark;
+                color: $white;
+                margin: 0.5rem 0rem;
+                padding: 0.5rem 0.7rem;
+                font-weight: bold;
+                margin-left: 1rem;
+            }
+        }
+    }
+
+    .customer-review {
+        margin: 0rem 15rem;
+        margin-top: 3rem;
+
+        .title-container {
+            text-align: center;
+
+            .title-text {
+                font-size: 2rem;
+                font-weight: bold;
+                margin-bottom: 0.5rem;
+            }
+
+            .title-desc {}
+        }
+
+        .body-container {
+            text-align: center;
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .item {
+                height: 20rem;
+                width: 18rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                background-color: $light-grey;
+                padding: 1rem;
+                border-radius: 2rem;
+
+                img {
+                    height: 5rem;
+                }
+
+                .review {
+                    font-size: 0.9rem;
+                }
+
+                .name-container {
+                    font-size: 0.9rem;
+                    padding-top: 0.5rem;
+
+                    .name {
+                        font-weight: bold;
+
+                    }
+
+                    .location {
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+        }
+    }
+
+}

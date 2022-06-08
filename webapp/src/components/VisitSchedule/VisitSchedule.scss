@@ -1,0 +1,110 @@
+@import "../../App.scss";
+
+.book-ticket-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    // filter: blur(2px);
+
+    .data-form {
+        background-color: $white;
+        filter: blur(0px) !important;
+
+        padding: 1rem;
+        width: 28rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+
+        .header-title {
+            font-weight: bold;
+            font-size: 2.8rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .form-element {
+            padding: .5rem 0rem;
+            display: flex;
+            flex-direction: row;
+
+            input,
+            select {
+                flex: 1;
+            }
+        }
+
+        button {
+            margin-top: 1rem;
+            border: 0.15 rem solid #ffffff;
+            border-radius: 0.5 rem;
+            background-color: #212121;
+            border-color: #212121;
+            color: #ffffff;
+            margin: 0.5 rem 0 rem;
+            padding: 0.5 rem 0.7 rem;
+            width: -webkit-fill-available;
+        }
+
+        // .form-submit {
+        //     margin-top: 1rem;
+
+        //     button {
+        //         border: 0.15 rem solid #ffffff;
+        //         border-radius: 0.5 rem;
+        //         background-color: #212121;
+        //         border-color: #212121;
+        //         color: #ffffff;
+        //         margin: 0.5 rem 0 rem;
+        //         padding: 0.5 rem 0.7 rem;
+        //         width: -webkit-fill-available;
+        //     }
+        // }
+
+        // .form-user {
+        //     justify-content: center;
+
+        //     .form-user-redirect {
+        //         color: #212121;
+        //         text-decoration: none;
+        //         text-align: center;
+        //     }
+        // }
+    }
+
+}
+
+// .visitSchedule-head{
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+// .visitSchedule-element{
+//     margin-top: 10px;
+//     width: 100%;
+// }
+
+// .visitSchedule-container{
+//     width: 600px;
+// }
+
+// .visitSchedule-label{
+//     font-weight: bold;
+//     font-size: 16px;
+//     width: 100%;
+// }
+
+// .bl-btn{
+//     width: 100px;
+// }
+
+// .bl-vs{
+//     margin-left: 20px;
+// }
+
+// .vs-actionbtns{
+//     margin-top: 28px;
+// }

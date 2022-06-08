@@ -1,0 +1,70 @@
+.reg-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+    .left-side {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .data-form {
+            width: 18rem;
+
+            .header-title {
+                font-weight: bold;
+                font-size: 3.2rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .form-element {
+                padding: .5rem 0rem;
+                display: flex;
+                flex-direction: row;
+
+                input,
+                select {
+                    flex: 1;
+                }
+            }
+
+            .form-submit {
+                margin-top: 1rem;
+
+                button {
+                    border: 0.15 rem solid #ffffff;
+                    border-radius: 0.5 rem;
+                    background-color: #212121;
+                    border-color: #212121;
+                    color: #ffffff;
+                    margin: 0.5 rem 0 rem;
+                    padding: 0.5 rem 0.7 rem;
+                    width: -webkit-fill-available;
+                }
+            }
+
+            .form-user {
+                justify-content: center;
+
+                .form-user-redirect {
+                    color: #212121;
+                    text-decoration: none;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .right-side {
+        width: 100%;
+        max-width: 100vh;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}

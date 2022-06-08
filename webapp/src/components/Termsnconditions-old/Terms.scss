@@ -1,0 +1,110 @@
+$white: #ffffff;
+$dark: #212121;
+$grey: #A2A2A2;
+
+.tnc {
+    width: 100%;
+    background-color: $dark;
+    color: $white;
+    padding: 1rem;
+    padding: 1rem 25rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .create-your-party {
+        display: flex;
+        flex-direction: row;
+        margin: 0rem 1rem;
+        font-weight: bold;
+
+        .title {
+            padding-right: 1rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .button {
+            border: .15rem solid $white;
+            border-radius: .5rem;
+            background-color: $dark;
+            color: $white;
+            margin: 0.5rem 0rem;
+            padding: 0.5rem 0.7rem;
+            font-weight: bold;
+        }
+    }
+
+    .more-info {
+        display: flex;
+        flex-direction: row;
+        margin: 0.5rem;
+        padding-bottom: 3rem;
+        padding-top: 1rem;
+        padding-top: 1.5rem;
+        border-top: 0.1rem solid $grey;
+
+        .col {
+            display: flex;
+            flex-direction: column;
+
+            .col-title {
+                font-weight: bold;
+            }
+
+            span {
+                margin: 0.2rem 0rem;
+                color: $grey;
+            }
+        }
+    }
+
+    .follow-us {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .icon-container {
+            .follow-us-title {
+                margin-bottom: .5rem;
+            }
+
+            a img {
+                height: 2rem;
+                width: 2rem;
+            }
+
+            .icon {
+                margin-left: 0rem;
+                margin-right: 2rem;
+            }
+        }
+
+        .store-buttons {
+            display: flex;
+            align-items: center;
+            img {
+                margin-right: 0.5rem;
+                height: 2.5rem;
+            }
+        }
+    }
+
+    .privacy {
+        display: flex;
+        flex-direction: row;
+        font-size: 1rem;
+        color: $grey;
+        margin-bottom: 1rem;
+
+        .item-title {
+            margin-right: 1.5rem;
+            color: $white;
+        }
+
+        .item {
+            margin-right: 1.5rem;
+        }
+    }
+}
