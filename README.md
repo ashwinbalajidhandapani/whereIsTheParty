@@ -1,4 +1,4 @@
-# INFO6150 Final Project
+# Academic Project - party Management App
 
 # Where Is The Party
 Website to host parties or search for parties hosted by others. Meet new people, make friends and have a great time. 
